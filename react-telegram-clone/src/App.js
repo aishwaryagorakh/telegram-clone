@@ -14,7 +14,6 @@ import {
   CssBaseline,
   useTheme,
   useMediaQuery,
-  Switch,
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import axios from "axios";

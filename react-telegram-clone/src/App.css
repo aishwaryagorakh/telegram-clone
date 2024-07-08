@@ -52,7 +52,7 @@ body.dark-mode {
 }
 /* App.css */
 
-.app {
+/* .app {
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -85,7 +85,7 @@ body.dark-mode {
 
 .dark-mode .MuiListItemText-secondary {
   color: #cccccc;
-}
+} */
 
 @media (max-width: 768px) {
   .app {
