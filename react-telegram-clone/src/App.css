@@ -1,23 +1,4 @@
-/* .container {
-  display: flex;
-  height: 100vh;
-}
 
-.chatList {
-  width: 300px;
-  border-right: 1px solid #ddd;
-  overflow-y: auto;
-}
-
-.chatThread {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-}
-
-.messageInput {
-  border-top: 1px solid #ddd;
-} */
 .container {
   display: flex;
   height: 100vh;
