@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+/* .container {
+  display: flex;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.chatList {
+  width: 300px;
+  border-right: 1px solid #ddd;
+  overflow-y: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.chatThread {
+  flex: 1;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.messageInput {
+  border-top: 1px solid #ddd;
+} */
+.container {
+  display: flex;
+  height: 100vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.chatList {
+  width: 300px;
+  border-right: 1px solid #ddd;
+  overflow-y: auto;
+}
+
+.chatThread {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.messageInput {
+  border-top: 1px solid #ddd;
+}
+.h1{
+  margin-left: 400px;
+}
+.search{
+  margin-left:300px ;
+}
+
+body {
+  transition: background-color 0.5s, color 0.5s;
+}
+
+/* Light mode styles */
+body.light-mode {
+  background-color: white;
+   color: black; 
+}
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: black;
+  color: white; 
+}
+/* App.css */
+.app {
+  transition: background-color 0.3s ease;
+}
+
+.dark-mode {
+  background-color: #333; /* Dark background color */
+  color: black; /* White text color */
 }
