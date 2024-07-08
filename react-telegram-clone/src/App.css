@@ -50,3 +50,49 @@ body.dark-mode {
   background-color: #333; /* Dark background color */
   color: black; /* White text color */
 }
+/* App.css */
+
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  padding: 0;
+}
+
+.h1 {
+  flex-grow: 1;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.dark-mode .title-dark {
+  color: #ffffff;
+}
+
+.dark-mode .MuiPaper-root {
+  background-color: #333;
+}
+
+.dark-mode .MuiListItemText-primary {
+  color: #ffffff;
+}
+
+.dark-mode .MuiListItemText-secondary {
+  color: #cccccc;
+}
+
+@media (max-width: 768px) {
+  .app {
+    flex-direction: column;
+  }
+
+  .container {
+    padding: 0 10px;
+  }
+}

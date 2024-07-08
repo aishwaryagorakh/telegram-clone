@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Typography, Box } from "@mui/material";
+import { Container, Typography, Box, useTheme } from "@mui/material";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import GroupIcon from "@mui/icons-material/Group";
 import ContactPhoneIcon from "@mui/icons-material/ContactPhone";
@@ -12,11 +12,12 @@ import Diversity3Icon from "@mui/icons-material/Diversity3";
 import "./Profile.css";
 
 const Profile = () => {
+  const theme = useTheme();
+
   return (
     <Container className="profile">
       <Box p={2}>
-        <Typography variant="h4"> MY Profile</Typography>
-
+        <Typography variant="h4">MY Profile</Typography>
         <Typography variant="body1">Name: Aishwarya Shinde</Typography>
         <Typography variant="body1">
           Email: aishwaryagorakhshinde@gmail.com &nbsp;&nbsp;
@@ -29,7 +30,7 @@ const Profile = () => {
           </Typography>
           <br />
           <Typography variant="body1">
-            <GroupIcon /> &nbsp;&nbsp;new Group
+            <GroupIcon /> &nbsp;&nbsp;New Group
           </Typography>
           <br />
           <Typography variant="body1">
@@ -41,11 +42,11 @@ const Profile = () => {
           </Typography>
           <br />
           <Typography variant="body1">
-            <PeopleAltIcon /> &nbsp;&nbsp;People NearBy
+            <PeopleAltIcon /> &nbsp;&nbsp;People Nearby
           </Typography>
           <br />
           <Typography variant="body1">
-            <TryIcon /> &nbsp;&nbsp;Saved Messages{" "}
+            <TryIcon /> &nbsp;&nbsp;Saved Messages
           </Typography>
           <br />
           <Typography variant="body1">
